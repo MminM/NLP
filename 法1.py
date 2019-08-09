@@ -5,6 +5,7 @@ import operator
 
 # 函数说明：创建数据样本
 # returns：
+#     dataset--实验样本切分的词条
 #     classvec--类别标签向量
 def loadDataSet():
     dataset = [['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
